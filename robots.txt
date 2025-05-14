@@ -1,0 +1,42 @@
+# Archivo robots.txt estándar
+
+# Permitir a todos los robots acceder a todo el sitio
+User-agent: *
+Allow: /
+
+# Rutas comunes que podrías querer bloquear
+# Descomentar según sea necesario
+
+# Bloquear acceso a carpetas de administración
+# Disallow: /admin/
+# Disallow: /wp-admin/
+# Disallow: /administrador/
+# Disallow: /panel/
+
+# Bloquear acceso a áreas privadas
+# Disallow: /privado/
+# Disallow: /cuenta/
+# Disallow: /carrito/
+# Disallow: /checkout/
+
+# Bloquear archivos específicos
+# Disallow: /*.pdf$
+# Disallow: /*.doc$
+# Disallow: /*.xls$
+
+# Bloquear parámetros de URL
+# Disallow: /*?s=
+# Disallow: /*?p=
+
+# Indicar la ubicación del sitemap
+Sitemap: https://lotesenventaacaciasmeta.lidereslocales.com/sitemap.xml
+
+# Reglas específicas para bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
