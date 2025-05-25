@@ -29,7 +29,7 @@ Allow: /
 # Disallow: /*?p=
 
 # Indicar la ubicación del sitemap
-Sitemap: https://lotesenventaacaciasmeta.lidereslocales.com/sitemap.xml
+Sitemap: https://lotesenventaacaciasmeta.dondeseria.com/sitemap.xml
 
 # Reglas específicas para bots
 User-agent: Googlebot
